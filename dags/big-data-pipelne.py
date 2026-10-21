@@ -44,7 +44,7 @@ London,16.2,78,2023-10-03"""
         
     with open(f"{data_dir}/raw_weather.csv", "w") as f:
             f.write(csv_content)
-    print("✅ Data downloaded successfully!")
+    print("Data downloaded successfully!")
 
     extract_task = PythonOperator(
         task_id='extract_data',
