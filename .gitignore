@@ -1,0 +1,17 @@
+#ignore airflow.cfg
+logs/
+data/
+plugins/
+config/
+
+#ignore environment 
+.env
+
+
+#ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# ignore Docker volumes
+postgres-db-volume/
