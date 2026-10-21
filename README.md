@@ -6,7 +6,6 @@ An automated, containerized data engineering pipeline built to process large dat
 * **Orchestration:** Apache Airflow (DAGs, Scheduler, Workers)
 * **Processing Engine:** Apache PySpark (SparkSession, DataFrames)
 * **Containerization:** Docker & Docker Compose (Custom Image with Java & PySpark)
-* **Message Broker / Metadata DB:** Redis & PostgreSQL
 * **Language:** Python
 
 # HOW works
